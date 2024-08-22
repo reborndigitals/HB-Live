@@ -12,7 +12,7 @@ Your privacy is important to us. To learn more about how we collect, use, and pr
 If you have any questions or concerns, feel free to reach out to our [support team](https://t.me/HeartBeat_Muzic).
 """
 
-@app.on_message(filters.command("privacy"))
+@app.on_message(filters.command("privcy"))
 async def privacy(client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
